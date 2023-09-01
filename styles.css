@@ -86,7 +86,7 @@ label {
 .shop h1 {
   font-size: 100px;
   font-weight: 700;
-  color: white;
+  color: rgb(255, 255, 255);
   width: 80%;
   margin: 20px auto;
 
@@ -99,10 +99,12 @@ label {
   font-family: "Black Ops One", cursive;
   font-family: "Press Start 2P", cursive;
   font-family: "Reenie Beanie", cursive;
-  color: white;
+  color: wheat;
+  background-color: none;
 }
 .shop span {
   background-color: black;
+  color: white;
 }
 .products {
   display: flex;
@@ -122,8 +124,7 @@ label {
   border-radius: 12px;
   object-fit: cover;
 }
-@media screen and (max-width: 600px) {
-  .advert {
-    display: block;
-  }
+label {
+  color: wheat;
+  font-weight: 600;
 }
