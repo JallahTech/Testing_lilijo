@@ -122,3 +122,8 @@ label {
   border-radius: 12px;
   object-fit: cover;
 }
+@media screen and (max-width: 600px) {
+  .advert {
+    display: block;
+  }
+}
